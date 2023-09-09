@@ -6,6 +6,11 @@
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.78px;
+    justify-content: end;
+    display: flex;
+    position: relative;
+    left: 100px;
+    margin-top: 25px;
 }
 
 .studio{
@@ -16,7 +21,11 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 letter-spacing: 0.28px;
+gap: 50px;
+list-style: none;
+justify-content: baseline;
 }
+
 
 .portfolio{
     color: #212121;
@@ -28,25 +37,25 @@ letter-spacing: 0.28px;
     letter-spacing: 0.28px;
 }
 
+
 .header{
     width: 1600px;
-height: 80px;
+height: 50px;
 flex-shrink: 0;
 background: white;
 border-radius: 35px;
 justify-content: center;
-
-
 position: relative;
-
-
 }
+
 
 .finger{
     width: 16px;
 height: 16px;
 flex-shrink: 0;
+display: block;
 }
+
 
 .contacts{
     color: #212121;
@@ -58,6 +67,7 @@ line-height: normal;
 letter-spacing: 0.28px;
 }
 
+
 .Email{
     color: #2196F3;
 font-family: Roboto;
@@ -66,6 +76,7 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 letter-spacing: 0.28px;
+
 }
 
 .phone{
@@ -89,6 +100,9 @@ font-weight: 900;
 line-height: 60px; /* 136.364% */
 letter-spacing: 2.64px;
 text-transform: uppercase;
+top: 100px;
+position: absolute;
+
 }
 
 .section1{
@@ -98,8 +112,12 @@ flex-shrink: 0;
 background: #2F303A;
 }
 
-.ul{
+.contacts-1{
     list-style-type: none;
+    display: flex;
+    gap: 50px;
+    justify-content: right;
+    
 }
 
 .button{
@@ -199,6 +217,7 @@ background: #FFF;
 box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
+
 .logo2{
     color: #2196F3;
 font-family: Raleway;
@@ -209,12 +228,14 @@ line-height: normal;
 letter-spacing: 0.78px;
 }
 
+
 .footer{
     width: 1600px;
 height: 252px;
 flex-shrink: 0;
 background: #2F303A;
 }
+
 
 .adress{
     width: 231px;
@@ -228,6 +249,8 @@ font-weight: 400;
 line-height: 24px; /* 171.429% */
 letter-spacing: 0.42px;
 }
+
+
 .email{
     width: 136px;
 height: 21px;
@@ -240,6 +263,8 @@ font-weight: 400;
 line-height: 24px; /* 171.429% */
 letter-spacing: 0.42px;
 }
+
+
 .phone1{
     width: 231px;
     height: 21px;
@@ -252,3 +277,12 @@ font-weight: 400;
 line-height: 24px; /* 171.429% */
 letter-spacing: 0.42px;
 }
+
+
+.ul-menu{
+list-style-type: none;
+    display:flex;
+    gap: 50px;
+    justify-content: start;
+}
+
